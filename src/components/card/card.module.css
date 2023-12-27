@@ -1,0 +1,20 @@
+.card {
+  width: 100%;
+  padding: 48px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 32px;
+  transition: 0.5s;
+}
+
+.orange:hover {
+  background-color: lightcoral;
+}
+
+.blue:hover {
+  background-color: lightskyblue;
+}
+
+.green:hover {
+  background-color: lightgreen;
+}
